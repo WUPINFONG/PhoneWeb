@@ -50,57 +50,7 @@ table {
 /**/
 /*Home*/
 
-.navbar{
 
-    background-color: blue;
-    text-align:center;
-   padding-top:10px
-
-    
-}
-.navbar a{
-    font-size :20px; 
-    text-decoration:none;
-    margin: 10px; 
-    color:hsl(0, 0%, 40%);
-	font-weight:bold ;
-}
-.navbar a:hover{
-    color: hsl(0, 100%, 40%);
-
-}
-.htital{
-	width: 600px;
-	height: auto;
-	margin-top:10px;
-	margin-bottom:10px;
-	display:block;
-	margin-left:295px ;
-}
-.h-h2 {
-	margin: auto;
-	padding: 5px;
-	font-size :40px; 
-	text-align:center;
-	border:1px solid;
-	border-radius: 5px;
-}
-
-.h-p2-text{
-	margin-top: 10px;
-	padding-top:5px;
-	font-size :40px; 
-	text-align:center;
-	background-color: palevioletred;
-	color:white;
-	
-}
-.h-carouse{
-	width: 200px;
-	height: 200px;
-	margin: 10px;
-	background-color: yellow;
-}
 
 .h-hot-pd-text{
 	margin-top: 10px;
@@ -110,12 +60,7 @@ table {
 	background-color: palevioletred;
 	color:white;
 }
-.h-carouse2{
-	background-color: aqua;
-	width: 200px;
-	height: 200px;
-	margin: 10px;
-}
+
 
 
 /*Shopping*/
@@ -144,6 +89,7 @@ table {
 	width: 100%;
 	height:100%;
 	display:flex;
+	flex-wrap: wrap
 }
 .phonecard{
 
@@ -175,23 +121,3 @@ table {
 
 
 
-
-.footer{
-	width:auto;
-	height:auto;
-	background-color: hsl(0, 0%, 50%);
-	text-align:center;
-	padding-top:10px;
-}
-.footer a{
-	color:white;
-	font-size: 20px;
-	font-weight:bold ;
-	text-decoration:none;
-	margin-right: 10px;
-	
-
-}
-.footer a:hover{
-	color:red;
-}

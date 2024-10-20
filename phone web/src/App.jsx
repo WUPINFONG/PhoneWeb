@@ -4,7 +4,7 @@ import Shopping from "./Shopping";
 import PhoneLease from "./PhoneLease";
 import About from "./About";
 import ShareLaout from "./ShareLaout";
-
+import SingleProduct from "./SingleProduct";
 function App() {
   return(<>
     
@@ -13,7 +13,9 @@ function App() {
       <Routes>
           <Route path="/" element={<ShareLaout/>} >
           <Route index element={<Home/>}/>
-          <Route path="shopping"element={<Shopping />} />
+          <Route path="shopping" element={<Shopping />} />
+          <Route path="shopping/:shoppingId" element={<SingleProduct/>}/>
+          
           <Route path='phonelease' element={<PhoneLease/>} />
           <Route path='about' element={<About/>} />
           
@@ -29,6 +31,6 @@ function App() {
     </>
 );
   
-}
+};
 
 export default App

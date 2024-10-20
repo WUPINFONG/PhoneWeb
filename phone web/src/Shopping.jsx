@@ -1,3 +1,6 @@
+
+
+
 function Shopping() {
 
     return(
@@ -14,6 +17,12 @@ function Shopping() {
                 </ul>
             </div>
         <div className="shopright">
+            <div className="phonecard">
+                <img className="phoneimg"src="https://www.jyes.com.tw/data/goods/gallery/202309/1695781472535302600.jpg"/>
+                <p>iphone15</p>
+                <p>$26000</p>
+
+            </div>
             <div className="phonecard">
                 <img className="phoneimg"src="https://www.jyes.com.tw/data/goods/gallery/202309/1695781472535302600.jpg"/>
                 <p>iphone15</p>
