@@ -1,10 +1,10 @@
 import {Link,useParams} from 'react-router-dom';
 import products from './data'
 
-function SingleProduct() {
+function SingleSamsung() {
 console.log(useParams());
-const{shoppingId}=useParams();
-const product=products.find((product)=> product.id === shoppingId);
+const{samsungId}=useParams();
+const product=products.find((product)=> product.id === samsungId);
 const {image,name}=product;
 
 
@@ -15,11 +15,11 @@ return(
         <img src={image} alt={name}/>
         <h5>{name}</h5>
    
-    <Link to="/shopping">go shopping</Link>
+    <Link to="/shopping/samsung">go to back</Link>
     </>
 );
 
 
 
 };
-export default SingleProduct;
+export default SingleSamsung;

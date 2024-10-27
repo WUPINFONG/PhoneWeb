@@ -5,6 +5,15 @@ import PhoneLease from "./PhoneLease";
 import About from "./About";
 import ShareLaout from "./ShareLaout";
 import SingleProduct from "./SingleProduct";
+import ShoppingIphone from "./ShoppingIphone";
+import ShoppingIpad from "./ShoppingIpad";
+import ShoppingSamsung from "./ShoppingSamsung";
+import ShoppingXiaomi from "./ShoppingXiaomi";
+import SingleIphone from "./SingleIphone";
+import SingleIpad from "./SingleIpad";
+import SingleSamsung from "./SingleSamsung";
+import SingleXiaomi from "./SingleXiaomi";
+
 function App() {
   return(<>
     
@@ -14,8 +23,20 @@ function App() {
           <Route path="/" element={<ShareLaout/>} >
           <Route index element={<Home/>}/>
           <Route path="shopping" element={<Shopping />} />
-          <Route path="shopping/:shoppingId" element={<SingleProduct/>}/>
           
+          
+          <Route path="shopping/iphone" element={<ShoppingIphone/>}/>
+          <Route path="shopping/iphone/:iphoneId" element={<SingleIphone/>}/>   
+
+          <Route path="shopping/ipad" element={<ShoppingIpad/>}/>
+          <Route path="shopping/ipad/:ipadId" element={<SingleIpad/>}/>   
+
+          <Route path="shopping/samsung" element={<ShoppingSamsung/>}/>
+          <Route path="shopping/samsung/:samsungId" element={<SingleSamsung/>}/>
+
+          <Route path="shopping/Xiaomi" element={<ShoppingXiaomi/>}/>    
+          <Route path="shopping/Xiaomi/:XiaomiId" element={<SingleXiaomi/>}/>
+
           <Route path='phonelease' element={<PhoneLease/>} />
           <Route path='about' element={<About/>} />
           

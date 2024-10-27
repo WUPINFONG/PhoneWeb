@@ -1,5 +1,6 @@
 
-
+import {Link} from 'react-router-dom';
+import styled from 'styled-components';
 
 function Shopping() {
 
@@ -9,10 +10,10 @@ function Shopping() {
         <div className="shop">
             <div className="shopleft">
                 <ul>
-                    <li>apple iphon系列</li>
-                    <li>apple ipad系列</li>
-                    <li>三星系列</li>
-                    <li>小米系列</li>
+                    <li><Link to='iphone'>apple iphone系列</Link></li>
+                    <li><Link to='ipad'>apple ipad系列</Link></li>
+                    <li><Link to='samsung'>三星系列</Link></li>
+                    <li><Link to='Xiaomi'>小米系列</Link></li>
                     
                 </ul>
             </div>
