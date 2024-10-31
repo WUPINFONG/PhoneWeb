@@ -1,4 +1,5 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom"
+import { useState } from "react";
 import Home from "./Home";
 import Shopping from "./Shopping";
 import PhoneLease from "./PhoneLease";
@@ -13,14 +14,20 @@ import SingleIphone from "./SingleIphone";
 import SingleIpad from "./SingleIpad";
 import SingleSamsung from "./SingleSamsung";
 import SingleXiaomi from "./SingleXiaomi";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import Login from "./Login";
+import Dashboard from "./Dashboard";
 
 function App() {
+
+const [user,setUser]=useState(null);
   return(<>
-    
+    <Navbar></Navbar>
     <BrowserRouter>
     
       <Routes>
-          <Route path="/" element={<ShareLaout/>} >
+          <Route path="/" element={<ShareLaout/>} />
           <Route index element={<Home/>}/>
           <Route path="shopping" element={<Shopping />} />
           
@@ -39,8 +46,8 @@ function App() {
 
           <Route path='phonelease' element={<PhoneLease/>} />
           <Route path='about' element={<About/>} />
-          
-          </Route>
+          <Route path="login" element={<Login setUser={setUser}/>}/>
+          <Route path="dashboard" element={<Dashboard user={user}/>}/>
          
    
         
@@ -49,9 +56,10 @@ function App() {
       </Routes>
       
     </BrowserRouter>
+    <Footer></Footer>
     </>
 );
   
 };
 
-export default App
+export default App;

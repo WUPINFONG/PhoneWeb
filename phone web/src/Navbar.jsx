@@ -29,6 +29,7 @@ return(
     <Staleda href="/shopping">手機商場</Staleda>
     <Staleda href="/phonelease">手機租借</Staleda>
     <Staleda href="/about">關於我們</Staleda>
+    <Staleda href='/login'>會員登入</Staleda>
     
 
 
@@ -40,4 +41,4 @@ return(
 
 }
 
-export default Navbar
+export default Navbar;
