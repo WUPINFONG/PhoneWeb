@@ -1,5 +1,14 @@
 import React from "react";
 import Slider from "react-slick";
+import styled from "styled-components";
+const Image =styled.img`
+padding-top: 10px;
+width: 1000px;
+height: 500px;
+
+`
+
+
 
 function SimpleSlider() {
   const settings = {
@@ -8,28 +17,22 @@ function SimpleSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1
+    
   };
+ 
   return (
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-          <h3>1</h3>
+        <Image src="img/07.jpg"/>
         </div>
         <div>
-          <h3>2</h3>
+        <Image src="img/08.jpg"/>
         </div>
         <div>
-          <h3>3</h3>
+        <Image src="img/08.png"/>
         </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
-        </div>
+
       </Slider>
     </div>
   );

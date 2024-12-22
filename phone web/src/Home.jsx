@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SimpleSlider from "./SimpleSlider";
 import styled from "styled-components";
-
+import SimpleSlider2 from "./SimpleSlider2";
 const Styledhtital = styled.div `
 
 width: 600px;
@@ -25,7 +25,7 @@ const Styleh2 =styled.h2`
 	border-radius: 5px;
 `
 const Stylep1 = styled.p`
-    	margin-top: 10px;
+    margin-top: 10px;
 	padding-top:5px;
 	font-size :40px; 
 	text-align:center;
@@ -35,23 +35,25 @@ const Stylep1 = styled.p`
 
 `
 const StyleCarouse = styled.div`
-    width: 200px;
-	height: 200px;
-	margin: 10px;
-	background-color: yellow;
+	padding-right:50px ;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	background-color:#D3D3D3;
 
 `
 const StyleCarouse2=styled.div`
-    	width: 1000px;
-	height: 1000px;
-	display:block;
-	padding:100px ;
+	padding-right:50px ;
+	padding-left: 50px;
+	padding-bottom: 50px;
 	
-	background-color: blue;
+	
+	background-color:	#D3D3D3;
+	
+	
 `
 const Stylep2=styled.p`
 
-	margin-top: 10px;
+	
 	padding-top:5px;
 	font-size :40px; 
 	text-align:center;
@@ -74,7 +76,7 @@ function Home() {
  </Styledhtital>
  <Stylep1>最新消息</Stylep1>
 <StyleCarouse>
-    <p>輪播器</p>
+    <SimpleSlider2/>
 </StyleCarouse>
 
  <Stylep2>熱賣商品</Stylep2>
