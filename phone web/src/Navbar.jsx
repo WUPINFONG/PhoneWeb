@@ -28,7 +28,7 @@ return(
     <Staleda href="/">首頁</Staleda>
     <Staleda href="/shopping">手機商場</Staleda>
     <Staleda href="/phonelease">手機租借</Staleda>
-    <Staleda href="/about">關於我們</Staleda>
+    <Staleda href="/contact-us">聯絡我們</Staleda>
     <Staleda href='/login'>會員登入</Staleda>
     
 

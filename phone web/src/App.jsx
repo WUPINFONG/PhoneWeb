@@ -3,7 +3,7 @@ import { useState } from "react";
 import Home from "./Home";
 import Shopping from "./Shopping";
 import PhoneLease from "./PhoneLease";
-import About from "./About";
+import Contactus from "./Contactus";
 import ShareLaout from "./ShareLaout";
 import SingleProduct from "./SingleProduct";
 import ShoppingIphone from "./ShoppingIphone";
@@ -33,23 +33,23 @@ const [user,setUser]=useState(null);
           
           
           <Route path="shopping/iphone" element={<ShoppingIphone/>}/>
-          <Route path="shopping/iphone/:iphoneId" element={<SingleIphone/>}/>   
+          <Route path="shopping-list/:productId"s element={<SingleIphone/>}/>   
 
           <Route path="shopping/ipad" element={<ShoppingIpad/>}/>
-          <Route path="shopping/ipad/:ipadId" element={<SingleIpad/>}/>   
+          <Route path="shopping-list/:productId" element={<SingleIpad/>}/>   
 
           <Route path="shopping/samsung" element={<ShoppingSamsung/>}/>
-          <Route path="shopping/samsung/:samsungId" element={<SingleSamsung/>}/>
+          <Route path="shopping-list/:productId" element={<SingleSamsung/>}/>
 
           <Route path="shopping/Xiaomi" element={<ShoppingXiaomi/>}/>    
-          <Route path="shopping/Xiaomi/:XiaomiId" element={<SingleXiaomi/>}/>
+          <Route path="shopping-list:productId" element={<SingleXiaomi/>}/>
 
           <Route path='phonelease' element={<PhoneLease/>} />
-          <Route path='about' element={<About/>} />
+          <Route path='contact-us/' element={<Contactus/>} />
           <Route path="login" element={<Login setUser={setUser}/>}/>
           <Route path="dashboard" element={<Dashboard user={user}/>}/>
          
-   
+         
         
         
         
