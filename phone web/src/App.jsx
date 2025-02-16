@@ -10,10 +10,7 @@ import ShoppingIphone from "./ShoppingIphone";
 import ShoppingIpad from "./ShoppingIpad";
 import ShoppingSamsung from "./ShoppingSamsung";
 import ShoppingXiaomi from "./ShoppingXiaomi";
-import SingleIphone from "./SingleIphone";
-import SingleIpad from "./SingleIpad";
-import SingleSamsung from "./SingleSamsung";
-import SingleXiaomi from "./SingleXiaomi";
+
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Login from "./Login";
@@ -33,16 +30,16 @@ const [user,setUser]=useState(null);
           
           
           <Route path="shopping/iphone" element={<ShoppingIphone/>}/>
-          <Route path="shopping-list/:productId"s element={<SingleIphone/>}/>   
+          <Route path="shopping-list/:productId"s element={<SingleProduct/>}/>   
 
           <Route path="shopping/ipad" element={<ShoppingIpad/>}/>
-          <Route path="shopping-list/:productId" element={<SingleIpad/>}/>   
+          <Route path="shopping-list/:productId" element={<SingleProduct/>}/>   
 
           <Route path="shopping/samsung" element={<ShoppingSamsung/>}/>
-          <Route path="shopping-list/:productId" element={<SingleSamsung/>}/>
+          <Route path="shopping-list/:productId" element={<SingleProduct/>}/>
 
           <Route path="shopping/Xiaomi" element={<ShoppingXiaomi/>}/>    
-          <Route path="shopping-list:productId" element={<SingleXiaomi/>}/>
+          <Route path="shopping-list:productId" element={<SingleProduct/>}/>
 
           <Route path='phonelease' element={<PhoneLease/>} />
           <Route path='contact-us/' element={<Contactus/>} />

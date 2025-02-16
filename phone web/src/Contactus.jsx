@@ -16,7 +16,7 @@ function Contactus() {
         <from>
         <div>
         <label forj="name">姓名:</label>
-        <input type='text'/>
+        <input type='text'value={inputName}/>
         </div>
         <div>
         <label for="tel">電話:</label>

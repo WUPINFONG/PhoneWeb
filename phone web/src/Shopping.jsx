@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { useState ,useEffect} from 'react';
 function Shopping() {
 
-
+    const [products, setproducts] = useState([]) // todos 的初始值為空陣列
 
     // 取得所有事項
         const fetchproducts = async () => {
@@ -16,7 +16,7 @@ function Shopping() {
             console.log(err)
           }
         }
-        const [products, setproducts] = useState([]) // todos 的初始值為空陣列
+
         useEffect(() => {
             fetchproducts()
           }, [])
