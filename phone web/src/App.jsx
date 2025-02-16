@@ -5,7 +5,7 @@ import Shopping from "./Shopping";
 import PhoneLease from "./PhoneLease";
 import Contactus from "./Contactus";
 import ShareLaout from "./ShareLaout";
-import SingleProduct from "./SingleProduct";
+import SingleProduct from "./SingleProduct"
 import ShoppingIphone from "./ShoppingIphone";
 import ShoppingIpad from "./ShoppingIpad";
 import ShoppingSamsung from "./ShoppingSamsung";
