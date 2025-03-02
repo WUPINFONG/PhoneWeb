@@ -30,7 +30,7 @@ const [user,setUser]=useState(null);
       <Routes>
           <Route path="/" element={<ShareLaout/>} />
           <Route index element={<Home/>}/>
-          <Route path="shopping" element={<Shopping />} />
+          <Route path="/shopping" element={<Shopping />} />
           
           
           <Route path="shopping/iphone" element={<ShoppingIphone/>}/>
@@ -43,9 +43,9 @@ const [user,setUser]=useState(null);
           <Route path="phonelease/iphone" element={<PhoneLeaseIphone/>}/>
           <Route path="phonelease/ipad" element={<PhoneLeaseIpad/>}/>
           <Route path="phonelease/samsung" element={<PhoneLeaseSamsung/>}/>
-          <Route path="phonelease/Xiaomi" element={<PhoneLeaseXiaomi/>}/>
+          <Route path="/phonelease/Xiaomi" element={<PhoneLeaseXiaomi/>}/>
           
-          <Route path="/phonelease-list/:leaseId" element={<SingleLease />} />
+          <Route path="phonelease-list/:leaseId" element={<SingleLease />} />
           <Route path='contact-us/' element={<Contactus/>} />
           <Route path="login" element={<Login setUser={setUser}/>}/>
           <Route path="dashboard" element={<Dashboard user={user}/>}/>
