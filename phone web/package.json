@@ -1,7 +1,7 @@
 {
   "name": "phone-web",
   "private": true,
-  "homepage": "https://WUPINFONG.github.io/phone-web/",
+  "homepage": "https://WUPINFONG.github.io/PhoneWeb/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
