@@ -24,13 +24,13 @@ function SimpleSlider2() {
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-        <Image src="img/05.png"/>
+        <Image src="/PhoneWeb/img/05.png"/>
         </div>
         <div>
-        <Image src="img/06.png"/>
+        <Image src="/PhoneWeb/img/06.png"/>
         </div>
         <div>
-        <Image src="img/07.png"/>
+        <Image src="/PhoneWeb/img/07.png"/>
         </div>
 
       </Slider>

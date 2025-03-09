@@ -1,4 +1,4 @@
-import { BrowserRouter,Routes,Route } from "react-router-dom"
+import { HashRouter,BrowserRouter,Routes,Route } from "react-router-dom"
 import { useState } from "react";
 import Home from "./Home";
 import Shopping from "./Shopping";
