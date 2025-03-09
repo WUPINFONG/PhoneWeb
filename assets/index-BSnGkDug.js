@@ -114,7 +114,7 @@ padding-top:10px;
 width: 1000px;
 height: auto;
 
-`;function Ex(){const e={dots:!0,infinite:!0,speed:500,slidesToShow:1,slidesToScroll:1};return u.jsx("div",{className:"slider-container",children:u.jsxs(qh,{...e,children:[u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/05.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/06.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWebPhoneWeb/img/07.png"})})]})})}const Px=w.div`
+`;function Ex(){const e={dots:!0,infinite:!0,speed:500,slidesToShow:1,slidesToScroll:1};return u.jsx("div",{className:"slider-container",children:u.jsxs(qh,{...e,children:[u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/05.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/06.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/07.png"})})]})})}const Px=w.div`
 
 width: 600px;
 height: auto;
@@ -478,7 +478,7 @@ font-weight:bold ;
               color: hsl(0, 100%, 40%);
              
           }
-`,uw=async()=>{try{const t=await(await fetch("http://localhost:3000/products",{method:"get"})).json();return console.log("API 回傳的 products:",t),t}catch(e){return console.error("Error fetching products:",e),[]}};function cw(){const[e,t]=O.useState([]),{productId:n}=Hp(),[r,i]=O.useState(!0);if(O.useEffect(()=>{(async()=>{console.log("開始取得產品資料..."),i(!0);const s=await uw();t(s),i(!1)})()},[]),r)return u.jsx("p",{children:"載入中..."});console.log("所有產品:",e);const o=e.find(l=>l.id===n);return console.log("找到的產品:",o),o?u.jsxs(Kx,{children:[u.jsxs(Xx,{children:[u.jsx(Yx,{children:u.jsx(ew,{src:o.image})}),u.jsxs(Gx,{children:[u.jsx(tw,{children:o.producsname}),u.jsxs(nw,{children:["NT$",o.price]}),u.jsxs(Zx,{children:[u.jsx(ow,{children:"直接購買"}),u.jsx(lw,{children:"加入購物車"})]})]})]}),u.jsxs(qx,{children:[u.jsx(rw,{children:"產品介紹"}),u.jsx(iw,{children:o.introduction})]}),u.jsx(Jx,{children:u.jsx(sw,{children:u.jsx(aw,{href:"//shopping",children:"回商品頁"})})})]}):u.jsx("p",{children:"產品未找到"})}function dw(){const e=async()=>{try{const x=await(await fetch("http://localhost:3000/products?_start=0&_end=11",{method:"get"})).json();n(x)}catch(h){console.log(h)}},[t,n]=O.useState([]);O.useEffect(()=>{e()},[]),w.img`
+`,uw=async()=>{try{const t=await(await fetch("http://localhost:3000/products",{method:"get"})).json();return console.log("API 回傳的 products:",t),t}catch(e){return console.error("Error fetching products:",e),[]}};function cw(){const[e,t]=O.useState([]),{productId:n}=Hp(),[r,i]=O.useState(!0);if(O.useEffect(()=>{(async()=>{console.log("開始取得產品資料..."),i(!0);const s=await uw();t(s),i(!1)})()},[]),r)return u.jsx("p",{children:"載入中..."});console.log("所有產品:",e);const o=e.find(l=>l.id===n);return console.log("找到的產品:",o),o?u.jsxs(Kx,{children:[u.jsxs(Xx,{children:[u.jsx(Yx,{children:u.jsx(ew,{src:o.image})}),u.jsxs(Gx,{children:[u.jsx(tw,{children:o.producsname}),u.jsxs(nw,{children:["NT$",o.price]}),u.jsxs(Zx,{children:[u.jsx(ow,{children:"直接購買"}),u.jsx(lw,{children:"加入購物車"})]})]})]}),u.jsxs(qx,{children:[u.jsx(rw,{children:"產品介紹"}),u.jsx(iw,{children:o.introduction})]}),u.jsx(Jx,{children:u.jsx(sw,{children:u.jsx(aw,{href:"/shopping",children:"回商品頁"})})})]}):u.jsx("p",{children:"產品未找到"})}function dw(){const e=async()=>{try{const x=await(await fetch("http://localhost:3000/products?_start=0&_end=11",{method:"get"})).json();n(x)}catch(h){console.log(h)}},[t,n]=O.useState([]);O.useEffect(()=>{e()},[]),w.img`
 width: 600px;
 height: auto;
 `;const r=w.h1`
