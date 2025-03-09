@@ -114,7 +114,7 @@ padding-top:10px;
 width: 1000px;
 height: auto;
 
-`;function Ex(){const e={dots:!0,infinite:!0,speed:500,slidesToShow:1,slidesToScroll:1};return u.jsx("div",{className:"slider-container",children:u.jsxs(qh,{...e,children:[u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/05.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/06.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/07.png"})})]})})}const Px=w.div`
+`;function Ex(){const e={dots:!0,infinite:!0,speed:500,slidesToShow:1,slidesToScroll:1};return u.jsx("div",{className:"slider-container",children:u.jsxs(qh,{...e,children:[u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/05.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/06.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWebPhoneWeb/img/07.png"})})]})})}const Px=w.div`
 
 width: 600px;
 height: auto;
