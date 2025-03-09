@@ -25,7 +25,7 @@ function App() {
 const [user,setUser]=useState(null);
   return(<>
     <Navbar></Navbar>
-    <BrowserRouter basename='/phoneWeb'>
+    <BrowserRouter basename='/PhoneWeb'>
     
       <Routes>
           <Route path="/" element={<ShareLaout/>} />
