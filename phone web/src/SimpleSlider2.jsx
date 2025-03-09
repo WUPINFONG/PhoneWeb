@@ -30,7 +30,7 @@ function SimpleSlider2() {
         <Image src={`${import.meta.env.BASE_URL}/img/06.png`}/>
         </div>
         <div>
-        <Image src={`${import.meta.env.BASE_URL}PhoneWeb/img/07.png`}/>
+        <Image src={`${import.meta.env.BASE_URL}/img/07.png`}/>
         </div>
 
       </Slider>

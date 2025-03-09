@@ -195,7 +195,7 @@ return(
     
     </Div3>
     <Div5>
-    <Bt3><AA1 href="//shopping">回商品頁</AA1></Bt3>
+    <Bt3><AA1 href="/shopping">回商品頁</AA1></Bt3>
     </Div5>
     </Div>
 );
