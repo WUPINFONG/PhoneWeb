@@ -5,6 +5,7 @@ const Stylednav= styled.nav`
  background-color: blue;
     text-align:center;
    padding-top:10px;
+   padding-bottom:5px;
 `
 const Staleda= styled.a`
 
