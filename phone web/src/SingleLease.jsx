@@ -32,6 +32,7 @@ width: auto;
 margin-top:10px ;
 margin-left:50px ;
 margin-right:50px ;
+margin-bottom:30px ;
 `
 const Div4=styled.div`
 margin-top:10px ;
