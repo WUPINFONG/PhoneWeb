@@ -114,7 +114,7 @@ padding-top:10px;
 width: 1000px;
 height: auto;
 
-`;function Ex(){const e={dots:!0,infinite:!0,speed:500,slidesToShow:1,slidesToScroll:1};return u.jsx("div",{className:"slider-container",children:u.jsxs(qh,{...e,children:[u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWebimg/05.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWebimg/06.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWebimg/07.png"})})]})})}const Px=w.div`
+`;function Ex(){const e={dots:!0,infinite:!0,speed:500,slidesToShow:1,slidesToScroll:1};return u.jsx("div",{className:"slider-container",children:u.jsxs(qh,{...e,children:[u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/05.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/06.png"})}),u.jsx("div",{children:u.jsx(ss,{src:"/PhoneWeb/img/07.png"})})]})})}const Px=w.div`
 
 width: 600px;
 height: auto;
@@ -395,6 +395,7 @@ width: auto;
 margin-top:10px ;
 margin-left:50px ;
 margin-right:50px ;
+margin-bottom:30px ;
 `,Zx=w.div`
 margin-top:10px ;
 margin-left:30px ;
@@ -461,6 +462,7 @@ border: 1px solid black;
 height: 100px;
 width: 250px;
 margin-top:20px ;
+
 background-color: gray;
 
 border: 1px solid black;
@@ -1043,6 +1045,7 @@ width: auto;
 margin-top:10px ;
 margin-left:50px ;
 margin-right:50px ;
+margin-bottom:30px ;
 `,_w=w.div`
 margin-top:10px ;
 margin-left:30px ;
