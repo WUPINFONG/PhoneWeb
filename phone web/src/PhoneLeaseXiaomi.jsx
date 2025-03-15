@@ -41,7 +41,7 @@ function PhoneLeaseXiaomi(){
             display:flex;
             flex-wrap: wrap;
           `
-          const Outlink= styled.a`
+          const Outlink= styled(Link)`
               color:blue;
             font-size: 20px;
             font-weight:bold ;
@@ -103,16 +103,16 @@ function PhoneLeaseXiaomi(){
             <Div2 className="leaseleft">
             
                             <ul>
-                              <Li><Outlink href='/phonelease/iphone'>apple iphone系列</Outlink></Li>
-                              <Li><Outlink href='/phonelease/ipad'>apple ipad系列</Outlink></Li>
-                              <Li><Outlink href='/phonelease/samsung'>三星系列</Outlink></Li>
-                              <Li><Outlink href='/phonelease/Xiaomi'>小米系列</Outlink></Li>
+                              <Li><Outlink to='phonelease/iphone'>apple iphone系列</Outlink></Li>
+                              <Li><Outlink to='phonelease/ipad'>apple ipad系列</Outlink></Li>
+                              <Li><Outlink to='phonelease/samsung'>三星系列</Outlink></Li>
+                              <Li><Outlink to='phonelease/Xiaomi'>小米系列</Outlink></Li>
                             </ul>
              </Div2>
              <Div3 className='leaseight'>
              {Lease.map((Lease)=>{
             return(
-                <Carda to={`/phonelease-list/${Lease.id}`}>
+                <Carda to={`phonelease-list/${Lease.id}`}>
                   <Phonecard className="phonecard">
                     <article key={Lease.id}>
                     

@@ -24,28 +24,27 @@ import Dashboard from "./Dashboard";
 function App() {
 
 const [user,setUser]=useState(null);
-  return(<>
-    <Navbar></Navbar>
+  return(
+  <>
+    
     
     <BrowserRouter basename='/PhoneWeb'>
-    
+    <Navbar/>
       <Routes>
           <Route path="/" element={<ShareLaout/>} />
           <Route index element={<Home/>}/>
-          <Route path="/shopping" element={<Shopping />} />
-          
-          
+          <Route path="shopping" element={<Shopping />} />
           <Route path="shopping/iphone" element={<ShoppingIphone/>}/>
           <Route path="shopping/ipad" element={<ShoppingIpad/>}/>
           <Route path="shopping/samsung" element={<ShoppingSamsung/>}/>
           <Route path="shopping/Xiaomi" element={<ShoppingXiaomi/>}/>    
-          <Route path="/shopping-list/:productId" element={<SingleProduct/>}/>  
+          <Route path="shopping-list/:productId" element={<SingleProduct/>}/>  
 
           <Route path='phonelease' element={<PhoneLease/>} />
           <Route path="phonelease/iphone" element={<PhoneLeaseIphone/>}/>
           <Route path="phonelease/ipad" element={<PhoneLeaseIpad/>}/>
           <Route path="phonelease/samsung" element={<PhoneLeaseSamsung/>}/>
-          <Route path="/phonelease/Xiaomi" element={<PhoneLeaseXiaomi/>}/>
+          <Route path="phonelease/Xiaomi" element={<PhoneLeaseXiaomi/>}/>
           
           <Route path="phonelease-list/:leaseId" element={<SingleLease />} />
           <Route path='contact-us/' element={<Contactus/>} />
@@ -58,8 +57,9 @@ const [user,setUser]=useState(null);
         
       </Routes>
       
-    </BrowserRouter>
+    
     <Footer></Footer>
+    </BrowserRouter>
     </>
 );
   

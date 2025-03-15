@@ -26,11 +26,11 @@ function Navbar() {
 return(
 <>
 <Stylednav>
-    <Staleda to="/">首頁</Staleda>
-    <Staleda to="/shopping">手機商場</Staleda>
-    <Staleda to="/phonelease">手機租借</Staleda>
-    <Staleda to="/contact-us">聯絡我們</Staleda>
-    <Staleda to='/login'>會員登入</Staleda>
+    <Staleda to="">首頁</Staleda>
+    <Staleda to="shopping">手機商場</Staleda>
+    <Staleda to="phonelease">手機租借</Staleda>
+    <Staleda to="contact-us">聯絡我們</Staleda>
+    <Staleda to='login'>會員登入</Staleda>
     
 
 

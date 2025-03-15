@@ -42,7 +42,7 @@ function ShoppingSamsung() {
           display:flex;
           flex-wrap: wrap;
         `
-        const Outlink= styled.a`
+        const Outlink= styled(Link)`
             color:blue;
           font-size: 20px;
           font-weight:bold ;
@@ -102,10 +102,10 @@ function ShoppingSamsung() {
       
           <Div2 className="shopleft">
               <ul>
-                  <Li><Outlink href='/shopping/iphone'>apple iphone系列</Outlink></Li>
-                  <Li><Outlink href='/shopping/ipad'>apple ipad系列</Outlink></Li>
-                  <Li><Outlink href='/shopping/samsung'>三星系列</Outlink></Li>
-                  <Li><Outlink href='/shopping/Xiaomi'>小米系列</Outlink></Li>
+                  <Li><Outlink to='shopping/iphone'>apple iphone系列</Outlink></Li>
+                  <Li><Outlink to='shopping/ipad'>apple ipad系列</Outlink></Li>
+                  <Li><Outlink to='shopping/samsung'>三星系列</Outlink></Li>
+                  <Li><Outlink to='shopping/Xiaomi'>小米系列</Outlink></Li>
                   
               </ul>
           </Div2>
@@ -113,7 +113,7 @@ function ShoppingSamsung() {
       {products.map((products)=>{
       return(
      
-          <Carda to={`/shopping-list/${products.id}`}>
+        <Carda to={`shopping-list/${products.id}`}> 
           <Phonecard className="phonecard">
               <article key={products.id}>
               
