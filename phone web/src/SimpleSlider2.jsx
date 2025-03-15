@@ -27,7 +27,7 @@ function SimpleSlider2() {
         <Image src={`${import.meta.env.BASE_URL}/img/05.PNG`}/>
         </div>
         <div>
-        <Image src={`${import.meta.env.BASE_URL}/img/06.PNG`}/>
+        <Image src={`${import.meta.env.BASE_URL}/img/06.png`}/>
         </div>
         <div>
         <Image src={`${import.meta.env.BASE_URL}/img/07.PNG`}/>
