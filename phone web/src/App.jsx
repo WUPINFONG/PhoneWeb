@@ -58,7 +58,7 @@ const [user,setUser]=useState(null);
       </Routes>
       
     
-    <Footer></Footer>
+    <Footer/>
     </BrowserRouter>
     </>
 );
