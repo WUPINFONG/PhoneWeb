@@ -112,7 +112,7 @@ function PhoneLeaseSamsung(){
              <Div3 className='leaseight'>
              {Lease.map((Lease)=>{
             return(
-                <Carda href={`/phonelease-list/${Lease.id}`}>
+                <Carda to={`/phonelease-list/${Lease.id}`}>
                   <Phonecard className="phonecard">
                     <article key={Lease.id}>
                     

@@ -30,10 +30,10 @@ return(
 <>
 <StyledFooter>
     
-    <Staleda href="/">首頁</Staleda>
-    <Staleda href="/shopping">手機商場</Staleda>
-    <Staleda href="/phonelease">手機租借</Staleda>
-    <Staleda href="/contact-us">聯絡我們</Staleda>
+    <Staleda to="/">首頁</Staleda>
+    <Staleda to="/shopping">手機商場</Staleda>
+    <Staleda to="/phonelease">手機租借</Staleda>
+    <Staleda to="/contact-us">聯絡我們</Staleda>
     <p></p>
     <p>版權所有 © 2024 </p>
     </StyledFooter>

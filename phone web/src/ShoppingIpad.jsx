@@ -114,7 +114,7 @@ function ShoppingIpad() {
       {products.map((products)=>{
       return(
      
-          <Carda href={`/shopping-list/${products.id}`}>
+          <Carda to={`/shopping-list/${products.id}`}>
           <Phonecard className="phonecard">
               <article key={products.id}>
               
