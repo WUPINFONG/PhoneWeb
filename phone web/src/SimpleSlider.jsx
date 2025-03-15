@@ -24,13 +24,14 @@ function SimpleSlider() {
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-        <Image src="/PhoneWeb/img/07.jpg"/>
+        <Image src={`${import.meta.env.BASE_URL}/img/07.jpg`}/>
+        
         </div>
         <div>
-        <Image src="/PhoneWeb/img/08.jpg"/>
+        <Image src={`${import.meta.env.BASE_URL}/img/08.jpg`}/>
         </div>
         <div>
-        <Image src="/PhoneWeb/img/08.png"/>
+        <Image src={`${import.meta.env.BASE_URL}/img/08.png`}/>
         </div>
 
       </Slider>
