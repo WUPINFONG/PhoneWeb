@@ -7,17 +7,17 @@ const Stylednav= styled.nav`
    padding-top:10px;
    padding-bottom:5px;
 `
-const Staleda= styled.a`
-
-font-size :20px; 
-    text-decoration:none;
-    margin: 10px; 
-    color:hsl(0, 0%, 40%);
-	font-weight:bold ;
-    &:hover{
-        color: hsl(0, 100%, 40%);
-    }
-`
+const Staleda = styled(Link)` 
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+  color: hsl(0, 0%, 40%);
+  font-weight: bold;
+  
+  &:hover {
+    color: hsl(0, 100%, 40%);
+  }
+`;
 
 
 

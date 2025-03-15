@@ -117,7 +117,7 @@ border: 1px solid black;
               background-color: yellow;
           }
 `
-const AA1=styled.a`
+const AA1=styled(Link)`
 font-size: 18px;
 font-weight:bold ;
   text-decoration:none;

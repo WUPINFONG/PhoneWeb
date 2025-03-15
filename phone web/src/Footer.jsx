@@ -10,9 +10,8 @@ const StyledFooter= styled.footer`
 
     
 `
-const Staleda= styled.a`
-
-color:white;
+const Staleda = styled(Link)`
+    color:white;
 	font-size: 20px;
 	font-weight:bold ;
 	text-decoration:none;

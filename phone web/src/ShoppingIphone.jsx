@@ -77,7 +77,7 @@ const Phonecard=styled.div`
   margin: 10px;
   border-radius: 5px;
 `
-const Carda =styled.a`
+const Carda =styled(Link)`
      color:blue;
      font-weight:bold ;
      text-decoration:none;
