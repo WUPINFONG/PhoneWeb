@@ -105,10 +105,10 @@ margin-top:10px ;
         
             <Div2 className="shopleft">
                 <ul>
-                    <Li><Outlink to='shopping/iphone'>apple iphone系列</Outlink></Li>
-                    <Li><Outlink to='shopping/ipad'>apple ipad系列</Outlink></Li>
-                    <Li><Outlink to='shopping/samsung'>三星系列</Outlink></Li>
-                    <Li><Outlink to='shopping/Xiaomi'>小米系列</Outlink></Li>
+                    <Li><Outlink to='/shopping/iphone'>apple iphone系列</Outlink></Li>
+                    <Li><Outlink to='/shopping/ipad'>apple ipad系列</Outlink></Li>
+                    <Li><Outlink to='/shopping/samsung'>三星系列</Outlink></Li>
+                    <Li><Outlink to='/shopping/Xiaomi'>小米系列</Outlink></Li>
                     
                 </ul>
             </Div2>
