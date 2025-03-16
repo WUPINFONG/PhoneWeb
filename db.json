@@ -1,0 +1,444 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "producsname": "iphone 15 128GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone15%20128.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 128GB 功能特色,iOS 17 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器,A16 仿生晶片,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭,5G 上網、eSIM、Wi-Fi 6、藍牙 5.3、第 2 代超寬頻晶片、NFC 讀取,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 2；速度最高可達 480Mb/s) "
+    },
+    {
+      "id": "2",
+      "producsname": "iphone 15 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone15%20256.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 256GB 功能特色,iOS 17 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器,A16 仿生晶片,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭,5G 上網、eSIM、Wi-Fi 6、藍牙 5.3、第 2 代超寬頻晶片、NFC 讀取,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 2；速度最高可達 480Mb/s) "
+    },
+    {
+      "id": "3",
+      "producsname": "iphone 15 por 128GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone15por.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 Pro 128GB 功能特色,iOS 17 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器,A17 Pro 仿生晶片 ,128G ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,200 萬畫素望遠鏡頭,5G 上網、eSIM、Wi-Fi 6E、藍牙 5.3、超寬頻、NFC 讀取,IP68 防水防塵,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)"
+    },
+    {
+      "id": "4",
+      "producsname": "iphone 15 por 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone15por.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 Pro 256GB 功能特色,iOS 17 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器,A17 Pro 仿生晶片 ,256G ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,200 萬畫素望遠鏡頭,5G 上網、eSIM、Wi-Fi 6E、藍牙 5.3、超寬頻、NFC 讀取,IP68 防水防塵,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)"
+    },
+    {
+      "id": "5",
+      "producsname": "iphone 15 por max 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone%2015%20por%20max.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 Pro Max 256GB 功能特色,iOS 17 作業系統,6.7 吋 2,796 x 1,290pixels 解析度超 Retina XDR 顯示器,A17 Pro 仿生晶片,128GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,200 萬畫素望遠鏡頭,5G 上網、eSIM、Wi-Fi 6E、藍牙 5.3、超寬頻、NFC 讀取,IP68 防水防塵,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)"
+    },
+    {
+      "id": "6",
+      "producsname": "iphone 15 por max 512GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone%2015%20por%20max.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 Pro Max 512GB 功能特色,iOS 17 作業系統,6.7 吋 2,796 x 1,290pixels 解析度超 Retina XDR 顯示器,A17 Pro 仿生晶片,256GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,200 萬畫素望遠鏡頭,5G 上網、eSIM、Wi-Fi 6E、藍牙 5.3、超寬頻、NFC 讀取,IP68 防水防塵,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)"
+    },
+    {
+      "id": "7",
+      "producsname": "iphone 16 128GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone16%20por%20128.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 128GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 仿生晶片,128GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 2；速度最高可達 480Mb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "8",
+      "producsname": "iphone 16 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone16%20256.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 256GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 仿生晶片,256GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 2；速度最高可達 480Mb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "9",
+      "producsname": "iphone 16 por 128GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone16%20pro%20%20256.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 Pro 128GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.3 吋 2,622 x 1,206pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 Pro 仿生晶片,128GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 4,800 萬畫素超廣角鏡頭 + 1,200 萬畫素 5 倍望遠鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵（IEC 60529 標準，最深 6 公尺水中待 30 分鐘）,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "10",
+      "producsname": "iphone 16 por 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone16%20pro%20%20256.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 Pro 256GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.3 吋 2,622 x 1,206pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 Pro 仿生晶片,256GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 4,800 萬畫素超廣角鏡頭 + 1,200 萬畫素 5 倍望遠鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵（IEC 60529 標準，最深 6 公尺水中待 30 分鐘）,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "11",
+      "producsname": "iphone 16 por max 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone%2016pro%20max.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 Pro max 256GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.3 吋 2,622 x 1,206pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 Pro 仿生晶片,128GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 4,800 萬畫素超廣角鏡頭 + 1,200 萬畫素 5 倍望遠鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵（IEC 60529 標準，最深 6 公尺水中待 30 分鐘）,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "12",
+      "producsname": "iphone 16 por max 512GB ",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone%2016pro%20max.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 Pro max 512GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.3 吋 2,622 x 1,206pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 Pro 仿生晶片,256GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 4,800 萬畫素超廣角鏡頭 + 1,200 萬畫素 5 倍望遠鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵（IEC 60529 標準，最深 6 公尺水中待 30 分鐘）,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "13",
+      "producsname": "ipad 10 256GB Wi-Fi",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/ipad10.PNG",
+      "price": 12300,
+      "introduction": "Apple iPad 10.9 (2022) Wi-Fi 256GB 功能特色,採用 iPadOS 16 作業系統,10.9 吋 2,360 x 1,640pixels 解析度螢幕（264ppi）,Liquid Retina 顯示器,Apple A14 仿生晶片,256GB ROM,Wi-Fi 6、藍牙 5.2,前相機：1,200 萬畫素鏡頭,後相機：1,200 萬畫素鏡頭,Touch ID,配置 28.6Wh 電池,採用 USB Type-C 規格，支援 20W 有線快充,支援第一代 Apple Pencil、巧控鍵盤雙面夾"
+    },
+    {
+      "id": "14",
+      "producsname": "ipad air 11吋 128GB Wi-Fi",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/ipad%20air.PNG",
+      "price": 12300,
+      "introduction": "Apple iPad Air 11 (2024) Wi-Fi 128GB 功能特色,採用 iPadOS 17 作業系統,11 吋 2,360 x 1,640pixels 解析度 Liquid Retina 顯示器,內建 Apple M2 晶片,8GB RAM + 128GB ROM,前置 1,200 萬畫素鏡頭,後置 1,200 萬畫素鏡頭,Wi-Fi 6E、藍牙 5.3,Touch ID 指紋辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s),支援第二代 Apple Pencil、Apple Pencil Pro、巧控鍵"
+    },
+    {
+      "id": "15",
+      "producsname": "ipad air 11吋256GB Wi-Fi",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/ipad%20air.PNG",
+      "price": 12300,
+      "introduction": "Apple iPad Air 11 (2024) Wi-Fi 256GB 功能特色,採用 iPadOS 17 作業系統,11 吋 2,360 x 1,640pixels 解析度 Liquid Retina 顯示器,內建 Apple M2 晶片,8GB RAM + 256GB ROM,前置 1,200 萬畫素鏡頭,後置 1,200 萬畫素鏡頭,Wi-Fi 6E、藍牙 5.3,Touch ID 指紋辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s),支援第二代 Apple Pencil、Apple Pencil Pro、巧控鍵"
+    },
+    {
+      "id": "16",
+      "producsname": "ipad por 11吋256GBWi-Fi",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/ipad%20por.PNG",
+      "price": 12300,
+      "introduction": "Apple iPad Pro 11 (2024) Wi-Fi 256GB 功能特色,採用 iPadOS 17 作業系統,11 吋 2,420 x 1,668pixels 解析度 Ultra Retina XDR 顯示器,內建 Apple M4 晶片（16 核心神經網路引擎）,8GB RAM + 256GB ROM,前置 1,200 萬畫素鏡頭,後置 1,200 萬畫素鏡頭,適應性原彩閃光燈、光學雷達掃描儀,Wi-Fi 6E、藍牙 5.3,Face ID 人臉辨識,內建 31.29 瓦特小時可充電鋰聚合物電池,採用 USB Type-C 連接埠 (支援 Thunderbolt 3、USB 4；速度最高可達 40Gb/s),支援第二代 Apple Pencil、Apple Pencil Pro、巧控鍵盤"
+    },
+    {
+      "id": "17",
+      "producsname": "Samsung三星 S系列手機 S24 Ultra 12+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/s24%20ultar.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy S24 Ultra 256GB 功能特色,5G + 5G 雙卡雙待 ,Android 14 作業系統、One UI 6.1 操作介面 ,6.8 吋 QHD+ 解析度 Dynamic AMOLED 2X 平面螢幕（1~120Hz 智慧動態調節） ,Qualcomm Snapdragon 8 Gen 3 for Galaxy 行動平台 ,12GB RAM / 256GB ROM ,前置 1,200 萬畫素自拍鏡頭 ,後置 2 億畫素主鏡頭 + 5,000 萬畫素遠距鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,000 萬畫素遠距鏡頭,Wi-Fi 6、藍牙 5.3、NFC、UWB 超頻寬 ,IP68 防塵防水,超聲波螢幕指紋辨識、臉部辨識,支援 Samsung Wallet,通話即時翻譯、翻譯助理、筆記智慧助理、搜尋圈、生成式相片編輯,內建 S Pen 手寫筆,配備 5,000mAh 電池,採用 USB Type-C 規格，支援超快速充電 2.0、Qi 無線充電、無線電力分享"
+    },
+    {
+      "id": "18",
+      "producsname": "Samsung三星 S系列手機 S24+ 12+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/s24%2B.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy S24+ 256GB 功能特色,5G + 5G 雙卡雙待 ,Android 14 作業系統、One UI 6.1 操作介面 ,6.8 吋 QHD+ 解析度 Dynamic AMOLED 2X 平面螢幕（1~120Hz 智慧動態調節） ,Qualcomm Snapdragon 8 Gen 3 行動平台 ,12GB RAM / 256GB ROM ,前置 1,200 萬畫素自拍鏡頭 ,後置 5,000 畫素主鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,000 萬畫素遠距鏡頭,Wi-Fi 6、藍牙 5.3、NFC、UWB 超頻寬 ,IP68 防塵防水,超聲波螢幕指紋辨識、臉部辨識,支援 Samsung Wallet,通話即時翻譯、翻譯助理、筆記智慧助理、搜尋圈、生成式相片編輯,配備 4,900mAh 電池,採用 USB Type-C 規格，支援超快速充電 2.0、Qi 無線充電、無線電力分享"
+    },
+    {
+      "id": "19",
+      "producsname": "Samsung三星 A系列手機 A55 8+128G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/A55.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy A55 5G 128GB 功能特色,5G + 5G 雙卡雙待,Android 14 作業系統、One UI 6.1 操作介面,6.6 吋 FHD+ Super AMOLED 螢幕（120Hz 螢幕更新率）,SAMSUNG Exynos 1480 八核心處理器,8GB RAM / 128GB ROM,前置 3,200 萬畫素鏡頭,後置 5,000 萬畫素主鏡頭 + 1,200 萬畫素超廣角鏡頭 + 500 萬畫素微距鏡頭,Wi-Fi 6、藍牙 5.3、NFC,Samsung Wallet、Samsung Wallet 悠遊卡,Samsung Knox Vault 安全機制,臉部辨識、光學螢幕指紋辨識,IP67 防塵防水等級,配備 5,000mAh 電池,採用 USB Type-C 規格，支援 25W 超快速充電,支援 microSD 記憶卡擴充 1TB 儲存空間"
+    },
+    {
+      "id": "20",
+      "producsname": "Samsung三星 A系列手機 A55 8+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/A55%20256.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy A55 5G 256GB 功能特色,5G + 5G 雙卡雙待,Android 14 作業系統、One UI 6.1 操作介面,6.6 吋 FHD+ Super AMOLED 螢幕（120Hz 螢幕更新率）,SAMSUNG Exynos 1480 八核心處理器,8GB RAM / 256GB ROM,前置 3,200 萬畫素鏡頭,後置 5,000 萬畫素主鏡頭 + 1,200 萬畫素超廣角鏡頭 + 500 萬畫素微距鏡頭,Wi-Fi 6、藍牙 5.3、NFC,Samsung Wallet、Samsung Wallet 悠遊卡,Samsung Knox Vault 安全機制,臉部辨識、光學螢幕指紋辨識,IP67 防塵防水等級,配備 5,000mAh 電池,採用 USB Type-C 規格，支援 25W 超快速充電,支援 microSD 記憶卡擴充 1TB 儲存空間"
+    },
+    {
+      "id": "21",
+      "producsname": "Samsung三星 S系列平板 Tab S10+ 5G 12+512G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/S10%2B.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy Tab S10+ 5G 512GB 功能特色 ,Android 14 作業系統、One UI Tab 操作介面 ,12.4 吋 2,800 x 1,752pixels 解析度螢幕 （120Hz 螢幕更新率）,聯發科 Dimensity 9300+ 八核心處理器 ,12GB RAM / 512GB ROM,IP68 防塵防水,5G 上網、支援 eSIM、Wi-Fi 6E、藍牙 5.3,前置 1,200 萬畫素鏡頭,後置 1,300 萬畫素主鏡頭＋800 萬畫素超廣角鏡頭 ,支援 S Pen 手寫筆（ IP68 防塵防水）,支援螢幕指紋辨識、臉部辨識,配備 10,900mAh 電池,支援 45W 超快速充電 2.0,支援 microSD 記憶卡，最高可擴充 1.5TB 儲存空間"
+    },
+    {
+      "id": "22",
+      "producsname": "Samsung三星 A系列平板 Tab A9+ 64G WIFI x210",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Tab%20A9%2B.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy Tab A9+ Wi-Fi 64GB 功能特色,Android 13 作業系統,11 吋 1,920 x 1,200pixels 解析度 LCD 觸控螢幕（90Hz 更新率）,Qualcomm Snapdragon 695 5G 八核心處理器,4GB RAM / 64GB ROM,Wi-Fi 5、藍牙 5.1,前鏡頭：500 萬畫素,後鏡頭：800 萬畫素,Dolby Atmos 全景聲喇叭,Samsung Kids、Samsung DeX、多重視窗,配備 7,040mAh 電池,採用 USB Type-C 規格，支援最高 15W 閃電快充,支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間,機身尺寸：257.1 x 168.7 x 6.9mm；重量：480g"
+    },
+    {
+      "id": "23",
+      "producsname": "紅米Note 13 Pro 8+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Redmi%20note13por%20.PNG",
+      "price": 12300,
+      "introduction": "Redmi Note 13 Pro 5G 功能特色 ,5G + 5G 雙卡雙卡 ,待 Android 13 作業系統、MIUI 14 操作介面  ,6.67 吋 2,712 x 1,220pixels 解析度 1.5K AMOMOcom 712 x 1,220pixels 解析度 1.5K,8GB RAM / 256GB ROM（LPDDR4X / UFS2.2）,前置1600萬畫素鏡頭 ,後置2億像素主鏡頭+800萬像素超廣角鏡頭+200萬畫素微距鏡頭 ,Wi-Fi 5、藍牙5.2、NFC、紅外線發射器 ,3.5mm 孔耳機,IP54 防水,螢幕下指紋解鎖、場景解鎖 ,配備 5,100mAh 電量等級 ,採用 USB Type-C 傳輸端口，支援 670 快充、D PD2. PD3.0快充 "
+    },
+    {
+      "id": "24",
+      "producsname": "紅米 Note 13 8+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Redmi%20note13%20.PNG",
+      "price": 12300,
+      "introduction": "Redmi Note 13 5G 功能特色 ,5G + 5G 雙卡雙待 ,Android 13 作業系統、MIUI 14 操作介面  ,6.67 吋 2,400 x 1,080pixels 解析度 AMOLED 螢幕更新率120HZ,8GB RAM / 256GB ROM（LPDDR4X / UFS2.2） ,前置 1,600 萬畫素鏡頭 ,後置 1 億畫素主鏡頭 + 800 萬畫素超廣角鏡頭 + 200 萬畫素,Wi-Fi、NFC 、紅外線發射器 ,3.5mm 耳機孔,IP54 防水等級,側邊指紋解鎖、警報解鎖 ,5,000mAh 電池 ,採用 USB Type-C 連接埠傳輸，支援 33W 快充 "
+    },
+    {
+      "id": "25",
+      "producsname": "小米 14T Pro 12+512G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/mi%2014t%20por.PNG",
+      "price": 12300,
+      "introduction": "小米 14T Pro 512GB 功能特色 ,Android 14 作業系統、Xiaomi HyperOS 操作界面 ,5G + 5G 雙卡雙待 ,6.67 寸 2,712 x 1,220pixels 解析度 AMOLED 廣螢幕,12GB RAM / 512GB ROM ,Wi-Fi 7、藍牙5.4、NFC、紅外線變焦 ,前置 3,200 萬 ,畫素徠卡鏡頭◎ 後置 5,000 萬畫素徠卡廣角主鏡頭 + 5,000 萬長焦卡 1,000 萬長焦角主鏡頭 +000 萬長焦卡畫素徠卡超廣角鏡頭 ,螢幕下指紋捕捉、逮捕 ,IP68 夜間等級 ,5,000mAh 電池 ,採用 USB Type-C 規格，支援 120W 超級快充、50W 無線充電"
+    },
+    {
+      "id": "26",
+      "producsname": "小米 14 Ultra 16+512G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/mi%2014t%20por.PNG",
+      "price": 12300,
+      "introduction": "Xiaomi 14 Ultra 功能特色  ,Android 14 作業系統、Xiaomi HyperOS 操作介面  ,5G + 5G 雙卡雙待  ,6.73 吋 3,220 x 1,440pixels 解析度 2K LTPO AMOLED 螢幕（120Hz 螢幕更新率）  ,Qualcomm Snapdragon 8 Gen 3 八核心處理器  ,16GB RAM / 512GB ROM（LPDDR5X / UFS4.0）  ,Wi-Fi 7、藍牙 5.4、NFC、紅外線遙控器  ,螢幕下指紋辨識、臉部辨識  ,前置 3,200 萬畫素鏡頭  ,後置徠卡光學 Summilux 5,000 萬畫素主鏡頭 + 5,000 萬畫素超廣角鏡頭 + 5,000 萬畫素長焦鏡頭 + 5,000 萬畫素長焦鏡頭 ,螢幕下指紋辨識、臉部辨識  ,IP68 防塵防水  ,5,000mAh 電池  ,採用 USB Type-C 規格，支援 90W 有線快充、 80W 無線充電 "
+    },
+    {
+      "id": "27",
+      "producsname": "小米Pad 6 8+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/mi%20pad6.PNG",
+      "price": 12300,
+      "introduction": "小米平板 6 功能特色,Android 13 作業系統、MIUI 14 操作界面◎ 11吋,2,880 x 1,800pixels 解析度 LCD 螢幕（144Hz 螢幕更新率、309 QuPI）,256GB UFS3.1 ROM,前置800萬畫素居中鏡頭,後置1,300萬畫素鏡頭,LED補光燈,Wi-Fi 6、藍牙5.2,四通道揚聲器、Dolby Atmos,分割畫面、重量視窗模式,8,88400 mAh 電池,採用 USB Type-C 連接端口，支援 33W 變焦快充,具備 USB3.2 Gen1 傳輸技術"
+    },
+    {
+      "id": "28",
+      "producsname": "紅米 14C 128GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Redmi%2014C%20128GB.PNG",
+      "price": 12300,
+      "introduction": "Redmi 14C 128GB 功能特色,4G + 4G 雙卡雙待,Android 13 作業系統、Xiaomi HyperOS 操作介面 ,6.88 吋 1,640 x 720pixels 解析度 LCD 螢幕（120Hz 螢幕更新率）,聯發科 Helio G81-Ultra 八核心處理器,4GB RAM + 128GB ROM（LPDDR4X / eMMC 5.1）,前置 1,300 萬畫素鏡頭,後置 5,000 萬畫素主鏡頭 + 輔助鏡頭,Wi-Fi 5、藍牙 5.4、NFC,3.5mm 耳機孔,側邊指紋辨識、臉部解鎖,5,160mAh 電池,採用 USB Type-C 傳輸埠，支援 18W 快充,支援 microSD 記憶卡擴充 1TB 儲存空間"
+    },
+    {
+      "id": "29",
+      "producsname": "紅米 13C 4+128G 4G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Redmi%2013C%20128GB.PNG",
+      "price": 12300,
+      "introduction": "Redmi 13C 128GB 功能特色,4G + 4G 雙卡雙待,Android 13 作業系統、MIUI 14 操作介面 ,6.74 吋 1,600 x 720pixels 解析度 LCD 螢幕（90Hz 螢幕更新率）,聯發科 Helio G85, 2GHz 八核心處理器,4GB RAM + 128GB ROM（LPDDR4X / eMMC 5.1）,前置 800 萬畫素鏡頭,後置 5,000 萬畫素主鏡頭 + 200 萬畫素微距鏡頭 + 200 萬畫素景深鏡頭,Wi-Fi 5、藍牙 5.3,3.5mm 耳機孔,側邊指紋辨識、臉部解鎖,5,000mAh 電池,採用 USB Type-C 傳輸埠，支援 18W 充電速度,支援 microSD 記憶卡擴充 1TB 儲存空間,機身尺寸：168 x 78 x 8.09mm；重量：192g"
+    },
+    {
+      "id": "30",
+      "producsname": "紅米 Redmi Pad SE 4+128G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Redmi%20Pad%20SE%204%2B128G.PNG",
+      "price": 123,
+      "introduction": "Redmi Pad SE (4GB/128GB) 功能特色 ,Android 13 作業系統、MIUI 14 for Pad 操作界面 ,11 寸 1,920 x 1,200pixels 分辨率 FH​​D+ LCD 隱形螢幕（90Hz 螢幕更新率） ,4GB RAM/128GB ROM（LPDDR4X/eMMC 5.1） ,前置 500 萬畫素鏡頭 ,後置 800 萬畫素鏡頭 ,Wi-Fi 5、藍牙 5.0 ,3.5mm 耳機孔 ,Type TypeAhmm 配備 05m -C規格，支援10W快充 ,支援microSD記憶卡，可額外增加1TB儲存空間 "
+    }
+  ],
+  "lease": [
+    {
+      "id": "31",
+      "producsname": "iphone 15 128GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone15%20128.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 128GB 功能特色,iOS 17 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器,A16 仿生晶片,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭,5G 上網、eSIM、Wi-Fi 6、藍牙 5.3、第 2 代超寬頻晶片、NFC 讀取,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 2；速度最高可達 480Mb/s) "
+    },
+    {
+      "id": "32",
+      "producsname": "iphone 15 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone15%20256.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 256GB 功能特色,iOS 17 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器,A16 仿生晶片,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭,5G 上網、eSIM、Wi-Fi 6、藍牙 5.3、第 2 代超寬頻晶片、NFC 讀取,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 2；速度最高可達 480Mb/s) "
+    },
+    {
+      "id": "33",
+      "producsname": "iphone 15 por 128GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone15por.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 Pro 128GB 功能特色,iOS 17 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器,A17 Pro 仿生晶片 ,128G ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,200 萬畫素望遠鏡頭,5G 上網、eSIM、Wi-Fi 6E、藍牙 5.3、超寬頻、NFC 讀取,IP68 防水防塵,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)"
+    },
+    {
+      "id": "34",
+      "producsname": "iphone 15 por 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone15por.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 Pro 256GB 功能特色,iOS 17 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器,A17 Pro 仿生晶片 ,256G ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,200 萬畫素望遠鏡頭,5G 上網、eSIM、Wi-Fi 6E、藍牙 5.3、超寬頻、NFC 讀取,IP68 防水防塵,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)"
+    },
+    {
+      "id": "35",
+      "producsname": "iphone 15 por max 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone%2015%20por%20max.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 Pro Max 256GB 功能特色,iOS 17 作業系統,6.7 吋 2,796 x 1,290pixels 解析度超 Retina XDR 顯示器,A17 Pro 仿生晶片,128GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,200 萬畫素望遠鏡頭,5G 上網、eSIM、Wi-Fi 6E、藍牙 5.3、超寬頻、NFC 讀取,IP68 防水防塵,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)"
+    },
+    {
+      "id": "36",
+      "producsname": "iphone 15 por max 512GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone%2015%20por%20max.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 15 Pro Max 512GB 功能特色,iOS 17 作業系統,6.7 吋 2,796 x 1,290pixels 解析度超 Retina XDR 顯示器,A17 Pro 仿生晶片,256GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,200 萬畫素望遠鏡頭,5G 上網、eSIM、Wi-Fi 6E、藍牙 5.3、超寬頻、NFC 讀取,IP68 防水防塵,Face ID 臉部辨識,支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)"
+    },
+    {
+      "id": "37",
+      "producsname": "iphone 16 128GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone16%20por%20128.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 128GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 仿生晶片,128GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 2；速度最高可達 480Mb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "38",
+      "producsname": "iphone 16 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone16%20256.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 256GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.1 吋 2,556 x 1,179pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 仿生晶片,256GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 2；速度最高可達 480Mb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "39",
+      "producsname": "iphone 16 por 128GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone16%20pro%20%20256.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 Pro 128GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.3 吋 2,622 x 1,206pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 Pro 仿生晶片,128GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 4,800 萬畫素超廣角鏡頭 + 1,200 萬畫素 5 倍望遠鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵（IEC 60529 標準，最深 6 公尺水中待 30 分鐘）,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "40",
+      "producsname": "iphone 16 por 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone16%20pro%20%20256.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 Pro 256GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.3 吋 2,622 x 1,206pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 Pro 仿生晶片,256GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 4,800 萬畫素超廣角鏡頭 + 1,200 萬畫素 5 倍望遠鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵（IEC 60529 標準，最深 6 公尺水中待 30 分鐘）,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "41",
+      "producsname": "iphone 16 por max 256GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone%2016pro%20max.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 Pro max 256GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.3 吋 2,622 x 1,206pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 Pro 仿生晶片,128GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 4,800 萬畫素超廣角鏡頭 + 1,200 萬畫素 5 倍望遠鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵（IEC 60529 標準，最深 6 公尺水中待 30 分鐘）,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "42",
+      "producsname": "iphone 16 por max 512GB ",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/iphone%2016pro%20max.PNG",
+      "price": 12300,
+      "introduction": "Apple iPhone 16 Pro max 512GB 功能特色,5G 單卡上網（可搭配 eSIM  啟用 5G + 5G 雙卡雙待）,iOS 18 作業系統,6.3 吋 2,622 x 1,206pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）,A18 Pro 仿生晶片,256GB ROM,前置 1,200 萬畫素原深感測相機,後置 4,800 畫素廣角鏡頭 + 4,800 萬畫素超廣角鏡頭 + 1,200 萬畫素 5 倍望遠鏡頭,Wi-Fi 7、藍牙 5.3、VoLTE、第 2 代超寬頻晶片、NFC 讀取模式,IP68 防水防塵（IEC 60529 標準，最深 6 公尺水中待 30 分鐘）,動作按鈕：靜音模式、相機、手電筒、捷徑等,相機控制：曝光、景深、縮放、相機、風格、色調,Face ID 臉部辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s)，支援 DisplayPort,支援有線快速充電、25W MagSafe 無線充電、7.5W Qi 無線充電、15W Qi2 無線充電"
+    },
+    {
+      "id": "43",
+      "producsname": "ipad 10 256GB Wi-Fi",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/ipad10.PNG",
+      "price": 12300,
+      "introduction": "Apple iPad 10.9 (2022) Wi-Fi 256GB 功能特色,採用 iPadOS 16 作業系統,10.9 吋 2,360 x 1,640pixels 解析度螢幕（264ppi）,Liquid Retina 顯示器,Apple A14 仿生晶片,256GB ROM,Wi-Fi 6、藍牙 5.2,前相機：1,200 萬畫素鏡頭,後相機：1,200 萬畫素鏡頭,Touch ID,配置 28.6Wh 電池,採用 USB Type-C 規格，支援 20W 有線快充,支援第一代 Apple Pencil、巧控鍵盤雙面夾"
+    },
+    {
+      "id": "44",
+      "producsname": "ipad air 11吋 128GB Wi-Fi",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/ipad%20air.PNG",
+      "price": 12300,
+      "introduction": "Apple iPad Air 11 (2024) Wi-Fi 128GB 功能特色,採用 iPadOS 17 作業系統,11 吋 2,360 x 1,640pixels 解析度 Liquid Retina 顯示器,內建 Apple M2 晶片,8GB RAM + 128GB ROM,前置 1,200 萬畫素鏡頭,後置 1,200 萬畫素鏡頭,Wi-Fi 6E、藍牙 5.3,Touch ID 指紋辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s),支援第二代 Apple Pencil、Apple Pencil Pro、巧控鍵"
+    },
+    {
+      "id": "45",
+      "producsname": "ipad air 11吋256GB Wi-Fi",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/ipad%20air.PNG",
+      "price": 12300,
+      "introduction": "Apple iPad Air 11 (2024) Wi-Fi 256GB 功能特色,採用 iPadOS 17 作業系統,11 吋 2,360 x 1,640pixels 解析度 Liquid Retina 顯示器,內建 Apple M2 晶片,8GB RAM + 256GB ROM,前置 1,200 萬畫素鏡頭,後置 1,200 萬畫素鏡頭,Wi-Fi 6E、藍牙 5.3,Touch ID 指紋辨識,採用 USB Type-C 連接埠 (USB 3；速度最高可達 10Gb/s),支援第二代 Apple Pencil、Apple Pencil Pro、巧控鍵"
+    },
+    {
+      "id": "46",
+      "producsname": "ipad por 11吋256GBWi-Fi",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/ipad%20por.PNG",
+      "price": 12300,
+      "introduction": "Apple iPad Pro 11 (2024) Wi-Fi 256GB 功能特色,採用 iPadOS 17 作業系統,11 吋 2,420 x 1,668pixels 解析度 Ultra Retina XDR 顯示器,內建 Apple M4 晶片（16 核心神經網路引擎）,8GB RAM + 256GB ROM,前置 1,200 萬畫素鏡頭,後置 1,200 萬畫素鏡頭,適應性原彩閃光燈、光學雷達掃描儀,Wi-Fi 6E、藍牙 5.3,Face ID 人臉辨識,內建 31.29 瓦特小時可充電鋰聚合物電池,採用 USB Type-C 連接埠 (支援 Thunderbolt 3、USB 4；速度最高可達 40Gb/s),支援第二代 Apple Pencil、Apple Pencil Pro、巧控鍵盤"
+    },
+    {
+      "id": "47",
+      "producsname": "Samsung三星 S系列手機 S24 Ultra 12+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/s24%20ultar.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy S24 Ultra 256GB 功能特色,5G + 5G 雙卡雙待 ,Android 14 作業系統、One UI 6.1 操作介面 ,6.8 吋 QHD+ 解析度 Dynamic AMOLED 2X 平面螢幕（1~120Hz 智慧動態調節） ,Qualcomm Snapdragon 8 Gen 3 for Galaxy 行動平台 ,12GB RAM / 256GB ROM ,前置 1,200 萬畫素自拍鏡頭 ,後置 2 億畫素主鏡頭 + 5,000 萬畫素遠距鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,000 萬畫素遠距鏡頭,Wi-Fi 6、藍牙 5.3、NFC、UWB 超頻寬 ,IP68 防塵防水,超聲波螢幕指紋辨識、臉部辨識,支援 Samsung Wallet,通話即時翻譯、翻譯助理、筆記智慧助理、搜尋圈、生成式相片編輯,內建 S Pen 手寫筆,配備 5,000mAh 電池,採用 USB Type-C 規格，支援超快速充電 2.0、Qi 無線充電、無線電力分享"
+    },
+    {
+      "id": "48",
+      "producsname": "Samsung三星 S系列手機 S24+ 12+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/s24%2B.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy S24+ 256GB 功能特色,5G + 5G 雙卡雙待 ,Android 14 作業系統、One UI 6.1 操作介面 ,6.8 吋 QHD+ 解析度 Dynamic AMOLED 2X 平面螢幕（1~120Hz 智慧動態調節） ,Qualcomm Snapdragon 8 Gen 3 行動平台 ,12GB RAM / 256GB ROM ,前置 1,200 萬畫素自拍鏡頭 ,後置 5,000 畫素主鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,000 萬畫素遠距鏡頭,Wi-Fi 6、藍牙 5.3、NFC、UWB 超頻寬 ,IP68 防塵防水,超聲波螢幕指紋辨識、臉部辨識,支援 Samsung Wallet,通話即時翻譯、翻譯助理、筆記智慧助理、搜尋圈、生成式相片編輯,配備 4,900mAh 電池,採用 USB Type-C 規格，支援超快速充電 2.0、Qi 無線充電、無線電力分享"
+    },
+    {
+      "id": "49",
+      "producsname": "Samsung三星 A系列手機 A55 8+128G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/A55.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy A55 5G 128GB 功能特色,5G + 5G 雙卡雙待,Android 14 作業系統、One UI 6.1 操作介面,6.6 吋 FHD+ Super AMOLED 螢幕（120Hz 螢幕更新率）,SAMSUNG Exynos 1480 八核心處理器,8GB RAM / 128GB ROM,前置 3,200 萬畫素鏡頭,後置 5,000 萬畫素主鏡頭 + 1,200 萬畫素超廣角鏡頭 + 500 萬畫素微距鏡頭,Wi-Fi 6、藍牙 5.3、NFC,Samsung Wallet、Samsung Wallet 悠遊卡,Samsung Knox Vault 安全機制,臉部辨識、光學螢幕指紋辨識,IP67 防塵防水等級,配備 5,000mAh 電池,採用 USB Type-C 規格，支援 25W 超快速充電,支援 microSD 記憶卡擴充 1TB 儲存空間"
+    },
+    {
+      "id": "50",
+      "producsname": "Samsung三星 A系列手機 A55 8+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/A55%20256.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy A55 5G 256GB 功能特色,5G + 5G 雙卡雙待,Android 14 作業系統、One UI 6.1 操作介面,6.6 吋 FHD+ Super AMOLED 螢幕（120Hz 螢幕更新率）,SAMSUNG Exynos 1480 八核心處理器,8GB RAM / 256GB ROM,前置 3,200 萬畫素鏡頭,後置 5,000 萬畫素主鏡頭 + 1,200 萬畫素超廣角鏡頭 + 500 萬畫素微距鏡頭,Wi-Fi 6、藍牙 5.3、NFC,Samsung Wallet、Samsung Wallet 悠遊卡,Samsung Knox Vault 安全機制,臉部辨識、光學螢幕指紋辨識,IP67 防塵防水等級,配備 5,000mAh 電池,採用 USB Type-C 規格，支援 25W 超快速充電,支援 microSD 記憶卡擴充 1TB 儲存空間"
+    },
+    {
+      "id": "51",
+      "producsname": "Samsung三星 S系列平板 Tab S10+ 5G 12+512G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/S10%2B.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy Tab S10+ 5G 512GB 功能特色 ,Android 14 作業系統、One UI Tab 操作介面 ,12.4 吋 2,800 x 1,752pixels 解析度螢幕 （120Hz 螢幕更新率）,聯發科 Dimensity 9300+ 八核心處理器 ,12GB RAM / 512GB ROM,IP68 防塵防水,5G 上網、支援 eSIM、Wi-Fi 6E、藍牙 5.3,前置 1,200 萬畫素鏡頭,後置 1,300 萬畫素主鏡頭＋800 萬畫素超廣角鏡頭 ,支援 S Pen 手寫筆（ IP68 防塵防水）,支援螢幕指紋辨識、臉部辨識,配備 10,900mAh 電池,支援 45W 超快速充電 2.0,支援 microSD 記憶卡，最高可擴充 1.5TB 儲存空間"
+    },
+    {
+      "id": "52",
+      "producsname": "Samsung三星 A系列平板 Tab A9+ 64G WIFI x210",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Tab%20A9%2B.PNG",
+      "price": 12300,
+      "introduction": "SAMSUNG Galaxy Tab A9+ Wi-Fi 64GB 功能特色,Android 13 作業系統,11 吋 1,920 x 1,200pixels 解析度 LCD 觸控螢幕（90Hz 更新率）,Qualcomm Snapdragon 695 5G 八核心處理器,4GB RAM / 64GB ROM,Wi-Fi 5、藍牙 5.1,前鏡頭：500 萬畫素,後鏡頭：800 萬畫素,Dolby Atmos 全景聲喇叭,Samsung Kids、Samsung DeX、多重視窗,配備 7,040mAh 電池,採用 USB Type-C 規格，支援最高 15W 閃電快充,支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間,機身尺寸：257.1 x 168.7 x 6.9mm；重量：480g"
+    },
+    {
+      "id": "53",
+      "producsname": "紅米Note 13 Pro 8+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Redmi%20note13por%20.PNG",
+      "price": 12300,
+      "introduction": "Redmi Note 13 Pro 5G 功能特色 ,5G + 5G 雙卡雙卡 ,待 Android 13 作業系統、MIUI 14 操作介面  ,6.67 吋 2,712 x 1,220pixels 解析度 1.5K AMOMOcom 712 x 1,220pixels 解析度 1.5K,8GB RAM / 256GB ROM（LPDDR4X / UFS2.2）,前置1600萬畫素鏡頭 ,後置2億像素主鏡頭+800萬像素超廣角鏡頭+200萬畫素微距鏡頭 ,Wi-Fi 5、藍牙5.2、NFC、紅外線發射器 ,3.5mm 孔耳機,IP54 防水,螢幕下指紋解鎖、場景解鎖 ,配備 5,100mAh 電量等級 ,採用 USB Type-C 傳輸端口，支援 670 快充、D PD2. PD3.0快充 "
+    },
+    {
+      "id": "54",
+      "producsname": "紅米 Note 13 8+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Redmi%20note13%20.PNG",
+      "price": 12300,
+      "introduction": "Redmi Note 13 5G 功能特色 ,5G + 5G 雙卡雙待 ,Android 13 作業系統、MIUI 14 操作介面  ,6.67 吋 2,400 x 1,080pixels 解析度 AMOLED 螢幕更新率120HZ,8GB RAM / 256GB ROM（LPDDR4X / UFS2.2） ,前置 1,600 萬畫素鏡頭 ,後置 1 億畫素主鏡頭 + 800 萬畫素超廣角鏡頭 + 200 萬畫素,Wi-Fi、NFC 、紅外線發射器 ,3.5mm 耳機孔,IP54 防水等級,側邊指紋解鎖、警報解鎖 ,5,000mAh 電池 ,採用 USB Type-C 連接埠傳輸，支援 33W 快充 "
+    },
+    {
+      "id": "55",
+      "producsname": "小米 14T Pro 12+512G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/mi%2014t%20por.PNG",
+      "price": 12300,
+      "introduction": "小米 14T Pro 512GB 功能特色 ,Android 14 作業系統、Xiaomi HyperOS 操作界面 ,5G + 5G 雙卡雙待 ,6.67 寸 2,712 x 1,220pixels 解析度 AMOLED 廣螢幕,12GB RAM / 512GB ROM ,Wi-Fi 7、藍牙5.4、NFC、紅外線變焦 ,前置 3,200 萬 ,畫素徠卡鏡頭◎ 後置 5,000 萬畫素徠卡廣角主鏡頭 + 5,000 萬長焦卡 1,000 萬長焦角主鏡頭 +000 萬長焦卡畫素徠卡超廣角鏡頭 ,螢幕下指紋捕捉、逮捕 ,IP68 夜間等級 ,5,000mAh 電池 ,採用 USB Type-C 規格，支援 120W 超級快充、50W 無線充電"
+    },
+    {
+      "id": "56",
+      "producsname": "小米 14 Ultra 16+512G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/mi%2014t%20por.PNG",
+      "price": 12300,
+      "introduction": "Xiaomi 14 Ultra 功能特色  ,Android 14 作業系統、Xiaomi HyperOS 操作介面  ,5G + 5G 雙卡雙待  ,6.73 吋 3,220 x 1,440pixels 解析度 2K LTPO AMOLED 螢幕（120Hz 螢幕更新率）  ,Qualcomm Snapdragon 8 Gen 3 八核心處理器  ,16GB RAM / 512GB ROM（LPDDR5X / UFS4.0）  ,Wi-Fi 7、藍牙 5.4、NFC、紅外線遙控器  ,螢幕下指紋辨識、臉部辨識  ,前置 3,200 萬畫素鏡頭  ,後置徠卡光學 Summilux 5,000 萬畫素主鏡頭 + 5,000 萬畫素超廣角鏡頭 + 5,000 萬畫素長焦鏡頭 + 5,000 萬畫素長焦鏡頭 ,螢幕下指紋辨識、臉部辨識  ,IP68 防塵防水  ,5,000mAh 電池  ,採用 USB Type-C 規格，支援 90W 有線快充、 80W 無線充電 "
+    },
+    {
+      "id": "57",
+      "producsname": "小米Pad 6 8+256G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/mi%20pad6.PNG",
+      "price": 12300,
+      "introduction": "小米平板 6 功能特色,Android 13 作業系統、MIUI 14 操作界面◎ 11吋,2,880 x 1,800pixels 解析度 LCD 螢幕（144Hz 螢幕更新率、309 QuPI）,256GB UFS3.1 ROM,前置800萬畫素居中鏡頭,後置1,300萬畫素鏡頭,LED補光燈,Wi-Fi 6、藍牙5.2,四通道揚聲器、Dolby Atmos,分割畫面、重量視窗模式,8,88400 mAh 電池,採用 USB Type-C 連接端口，支援 33W 變焦快充,具備 USB3.2 Gen1 傳輸技術"
+    },
+    {
+      "id": "58",
+      "producsname": "紅米 14C 128GB",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Redmi%2014C%20128GB.PNG",
+      "price": 12300,
+      "introduction": "Redmi 14C 128GB 功能特色,4G + 4G 雙卡雙待,Android 13 作業系統、Xiaomi HyperOS 操作介面 ,6.88 吋 1,640 x 720pixels 解析度 LCD 螢幕（120Hz 螢幕更新率）,聯發科 Helio G81-Ultra 八核心處理器,4GB RAM + 128GB ROM（LPDDR4X / eMMC 5.1）,前置 1,300 萬畫素鏡頭,後置 5,000 萬畫素主鏡頭 + 輔助鏡頭,Wi-Fi 5、藍牙 5.4、NFC,3.5mm 耳機孔,側邊指紋辨識、臉部解鎖,5,160mAh 電池,採用 USB Type-C 傳輸埠，支援 18W 快充,支援 microSD 記憶卡擴充 1TB 儲存空間"
+    },
+    {
+      "id": "59",
+      "producsname": "紅米 13C 4+128G 4G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Redmi%2013C%20128GB.PNG",
+      "price": 12300,
+      "introduction": "Redmi 13C 128GB 功能特色,4G + 4G 雙卡雙待,Android 13 作業系統、MIUI 14 操作介面 ,6.74 吋 1,600 x 720pixels 解析度 LCD 螢幕（90Hz 螢幕更新率）,聯發科 Helio G85, 2GHz 八核心處理器,4GB RAM + 128GB ROM（LPDDR4X / eMMC 5.1）,前置 800 萬畫素鏡頭,後置 5,000 萬畫素主鏡頭 + 200 萬畫素微距鏡頭 + 200 萬畫素景深鏡頭,Wi-Fi 5、藍牙 5.3,3.5mm 耳機孔,側邊指紋辨識、臉部解鎖,5,000mAh 電池,採用 USB Type-C 傳輸埠，支援 18W 充電速度,支援 microSD 記憶卡擴充 1TB 儲存空間,機身尺寸：168 x 78 x 8.09mm；重量：192g"
+    },
+    {
+      "id": "60",
+      "producsname": "紅米 Redmi Pad SE 4+128G",
+      "image": "https://raw.githubusercontent.com/WUPINFONG/phone-web-/refs/heads/main/phone%20image/Redmi%20Pad%20SE%204%2B128G.PNG",
+      "price": 12300,
+      "introduction": "Redmi Pad SE (4GB/128GB) 功能特色 ,Android 13 作業系統、MIUI 14 for Pad 操作界面 ,11 寸 1,920 x 1,200pixels 分辨率 FH​​D+ LCD 隱形螢幕（90Hz 螢幕更新率） ,4GB RAM/128GB ROM（LPDDR4X/eMMC 5.1） ,前置 500 萬畫素鏡頭 ,後置 800 萬畫素鏡頭 ,Wi-Fi 5、藍牙 5.0 ,3.5mm 耳機孔 ,Type TypeAhmm 配備 05m -C規格，支援10W快充 ,支援microSD記憶卡，可額外增加1TB儲存空間 "
+    }
+  ],
+  "Contactus": [
+    {
+      "id": "59d3",
+      "name": "WU PIN FONG",
+      "tel": "0966587563",
+      "email": "PERRY11514@GMAIL.COM",
+      "title": "121",
+      "message": ".45"
+    },
+    {
+      "id": "ef2e",
+      "name": "WU PIN FONG",
+      "tel": "0966587563",
+      "email": "perry11514@gmail.com",
+      "title": "A",
+      "message": "DD"
+    }
+  ]
+}
