@@ -3,12 +3,12 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import { useState ,useEffect} from 'react';
 function PhoneLease() {
-
+  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
 
     // 取得所有事項
     const fetchLeases = async () => {
       try {
-        const response = await fetch("http://localhost:3000/lease", { method: 'get' }) // 發送 GET 請求
+        const response = await fetch(`${API_URL}/lease`, { method: 'get' }) // 發送 GET 請求
         const data = await response.json() // 取得回傳的資料
         setLease(data) // 把取得的資料存放到 todos 中
       } catch (err) {

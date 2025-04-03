@@ -129,10 +129,10 @@ font-weight:bold ;
              
           }
 `
-
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
 const fetchproducts = async () => {
     try {
-      const response = await fetch("http://localhost:3000/products", { method: 'get' }) // 發送 GET 請求
+      const response = await fetch(`${API_URL}/products`, { method: 'get' }) // 發送 GET 請求
       const data = await response.json() // 取得回傳的資料
       console.log("API 回傳的 products:", data);
       return data ;// 把取得的資料存放到 todos 中

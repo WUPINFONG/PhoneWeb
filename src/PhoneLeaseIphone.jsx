@@ -2,9 +2,10 @@ import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 import { useState ,useEffect} from 'react';
 function PhoneLeaseIphone(){
+  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
         const fetchLeases = async () => {
           try {
-            const response = await fetch("http://localhost:3000/lease?_start=0&_end=11", { method: 'get' }) // 發送 GET 請求
+            const response = await fetch(`${API_URL}/lease?_start=0&_end=11`, { method: 'get' }) // 發送 GET 請求
             const data = await response.json() // 取得回傳的資料
             setLease(data) // 把取得的資料存放到 todos 中
           } catch (err) {
