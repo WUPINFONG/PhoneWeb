@@ -6,100 +6,78 @@ import "slick-carousel/slick/slick-theme.css";
 import SimpleSlider from "./SimpleSlider";
 import styled from "styled-components";
 import SimpleSlider2 from "./SimpleSlider2";
-const Styledhtital = styled.div `
+const Container = styled.div`
+  width: 100%;
+  max-width: 1200px; /* 限制最大寬度 */
+  margin: auto;
+  padding: 20px;
+`;
 
-width: 600px;
-height: auto;
-margin-top:10px;
-margin-bottom:10px;
-display:block;
-margin-left:295px ;
-`
-const Styleh2 =styled.h2`
+const StyledTitle = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+`;
 
-	margin: auto;
-	padding: 5px;
-	font-size :40px; 
-	text-align:center;
-	border:1px solid;
-	border-radius: 5px;
-`
-const Stylep1 = styled.p`
-    margin-top: 10px;
-	padding-top:5px;
-	font-size :40px; 
-	text-align:center;
-	background-color: palevioletred;
-	color:white;
+const Styleh2 = styled.h2`
+  padding: 10px;
+  font-size: 32px; 
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px; 
 
+  @media (max-width: 768px) {
+    font-size: 24px;
+    width: 90%;
+  }
+`;
 
-`
-const StyleCarouse = styled.div`
-	padding-right:50px ;
-	padding-left: 50px;
-	padding-bottom: 50px;
-	background-color:#D3D3D3;
+const SectionTitle = styled.p`
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 32px; 
+  text-align: center;
+  background-color: palevioletred;
+  color: white;
+  border-radius: 5px;
 
-`
-const StyleCarouse2=styled.div`
-	padding-right:50px ;
-	padding-left: 50px;
-	padding-bottom: 50px;
-	
-	
-	background-color:	#D3D3D3;
-	
-	
-`
-const Stylep2=styled.p`
+  @media (max-width: 768px) {
+    font-size: 24px;
+    padding: 5px;
+  }
+`;
 
-	
-	padding-top:5px;
-	font-size :40px; 
-	text-align:center;
-	background-color: palevioletred;
-	color:white;
-`
+const CarouselWrapper = styled.div`
+  padding: 20px;
+  background-color: #d3d3d3;
+  border-radius: 10px;
 
-
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
+`;
 
 function Home() {
-    
-    return(<>
+  return (
+    <Container>
+      <StyledTitle>
+        <Styleh2>歡迎來手機購物 & 手機租借網站</Styleh2>
+      </StyledTitle>
 
+      <SectionTitle>最新消息</SectionTitle>
+      <CarouselWrapper>
+        <SimpleSlider2 />
+      </CarouselWrapper>
 
-
-
-
- <Styledhtital>
- <Styleh2>歡迎來手機購物&&手機租借網站</Styleh2>
- </Styledhtital>
- <Stylep1>最新消息</Stylep1>
-<StyleCarouse>
-    <SimpleSlider2/>
-</StyleCarouse>
-
- <Stylep2>熱賣商品</Stylep2>
-
-    
-            <StyleCarouse2>
-                <SimpleSlider/>
-            </StyleCarouse2>
-
-
-
-
-
-      
-    
-  
-    
-    
-    
-    
-
-    </>
-    );
+      <SectionTitle>熱賣商品</SectionTitle>
+      <CarouselWrapper>
+        <SimpleSlider />
+      </CarouselWrapper>
+    </Container>
+  );
 }
 
-export default  Home
+export default Home;
