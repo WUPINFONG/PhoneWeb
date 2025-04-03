@@ -1,171 +1,217 @@
 import { useState } from "react";
 import styled from "styled-components";
-const H1= styled.h2`
-padding-top:20px ;
-text-align: center; 
-margin-left:200px ;
-margin-right:200px ;
-font-size: 45px;
-font-weight:bold ;
-`
-const Form1 =styled.form`
+
+// 標題樣式
+const H1 = styled.h2`
+  padding-top: 20px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0 20px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 768px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 30px;
+  }
+`;
+
+// 表單容器樣式
+const Form1 = styled.form`
   width: 500px;
-  height: 450px;
-  display: block;
-  border: 1px solid;
+  padding: 20px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+`;
+
+// 單一欄位樣式
+const Div = styled.div`
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+`;
+
+// 標籤樣式
+const Txt = styled.label`
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+`;
+
+// 輸入框樣式
+const Input = styled.input`
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  margin-top: 30px;
-  margin-left:300px ;
-  margin-right:300px ;
-  margin-bottom:200px ;
-  
-`
-const Div1 =styled.div`
-padding-top:20px ;
-margin-left: 100px;
-margin-right: 100px;
-margin-bottom: 10px;
-`
-const Div2 =styled.div`
-margin-left: 100px;
-margin-right: 100px;
-margin-bottom: 10px;
-`
-const Div3 =styled.div`
-margin-left: 100px;
-margin-right: 100px;
-margin-bottom: 10px;
-`
-const Div4 =styled.div`
-margin-left: 100px;
-margin-right: 100px;
-margin-bottom: 10px;
+  box-sizing: border-box;
 
-`
-const Div5 =styled.div`
+  &:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+`;
 
+// Textarea樣式
+const Txt1 = styled.textarea`
+  width: 100%;
+  height: 150px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: none;
 
-margin-left: 110px;
-margin-right: 100px;
-margin-bottom: 10px;
-padding-top: 10px;
-`
+  &:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+`;
 
-const Txt=styled.label`
-font-size: 18px;
-font-weight:bold ;
-`
+// 按鈕樣式
+const Bt1 = styled.button`
+  width: 100%;
+  height: 45px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 
-const Txt1=styled.textarea`
-font-size: 14px;
-font-weight:bold ;
-width: 250px;
-height: 150px;`
-const Txt2=styled.label`
-margin-left:205px ;
-font-size: 20px;
-font-weight:bold ;
-text-align: center; 
+  &:hover {
+    background-color: #357abd;
+  }
 
-`
-const INput=styled.input`
-width:200px;
-height: 20px;
-`
-
-const Bt1=styled.button`
-font-size: 10px;
-font-weight:bold ;
-height: 50px;
-width: 200px;
-background-color: rgb(128, 128, 128);
-color: white;
-border: 1px solid black;
-margin-left:130px;
-margin-top:10px ;
-&:hover{
-              color: hsl(0, 100%, 40%);
-              background-color: yellow;
-          }
-`
-
+  &:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+`;
 
 function Contactus() {
-    const [inputName, setInputName] = useState('');
-    const [inputTel, setInputTel] = useState('');
-    const [inputEmail, setInputEmail] = useState('');
-    const [inputTitle, setInputTitle] = useState('');
-    const [inputMessage, setInputMessage] = useState('');
-    const [isSubmitting, setIsSubmitting] = useState(false);
+  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
+  const [inputName, setInputName] = useState('');
+  const [inputTel, setInputTel] = useState('');
+  const [inputEmail, setInputEmail] = useState('');
+  const [inputTitle, setInputTitle] = useState('');
+  const [inputMessage, setInputMessage] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-    const handleSubmit = async (event) => {
-        event.preventDefault();
-        setIsSubmitting(true);
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setIsSubmitting(true);
 
-        const formData = {
-            name: inputName,
-            tel: inputTel,
-            email: inputEmail,
-            title: inputTitle,
-            message: inputMessage,
-        };
-
-        try {
-            const response = await fetch("http://localhost:3000/Contactus", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(formData),
-            });
-
-            if (response.ok) {
-                alert("✅ 表單提交成功！"); // 🔥 顯示成功視窗
-                setInputName('');
-                setInputTel('');
-                setInputEmail('');
-                setInputTitle('');
-                setInputMessage('');
-            } else {
-                alert("❌ 提交失敗，請稍後再試！");
-            }
-        } catch (error) {
-            console.error("提交錯誤:", error);
-            alert("⚠️ 伺服器錯誤，請稍後再試！");
-        }
-
-        setIsSubmitting(false);
+    const formData = {
+      name: inputName,
+      tel: inputTel,
+      email: inputEmail,
+      title: inputTitle,
+      message: inputMessage,
     };
 
-    return (
-        <>
-            <H1>歡迎有任何問題於下方填寫表單</H1>
-            <Form1 onSubmit={handleSubmit}>
-                <Div1>
-                    <Txt htmlFor="name">姓名:</Txt>
-                    <INput type="text" id="name" value={inputName} onChange={(e) => setInputName(e.target.value)} required />
-                </Div1>
-                <Div2>
-                    <Txt htmlFor="tel">電話:</Txt>
-                    <INput type="text" id="tel" maxLength="10" value={inputTel} onChange={(e) => setInputTel(e.target.value)} required />
-                </Div2>
-                <Div3>
-                    <Txt htmlFor="email">Email:</Txt>
-                    <INput type="email" id="email" value={inputEmail} onChange={(e) => setInputEmail(e.target.value)} required />
-                </Div3>
-                <Div4>
-                    <Txt htmlFor="title">標題:</Txt>
-                    <INput type="text" id="title" value={inputTitle} onChange={(e) => setInputTitle(e.target.value)} required />
-                </Div4>
-                <Txt2 htmlFor="message">內容</Txt2>
-                <Div5>
-                    
-                    <Txt1 id="message" value={inputMessage} onChange={(e) => setInputMessage(e.target.value)} required></Txt1>
-                </Div5>
-                <Bt1 type="submit" disabled={isSubmitting}>
-                    {isSubmitting ? "送出中..." : "送出"}
-                </Bt1>
-            </Form1>
-        </>
-    );
+    try {
+      const response = await fetch(`${API_URL}/Contactus`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        alert("✅ 表單提交成功！");
+        setInputName('');
+        setInputTel('');
+        setInputEmail('');
+        setInputTitle('');
+        setInputMessage('');
+      } else {
+        alert("❌ 提交失敗，請稍後再試！");
+      }
+    } catch (error) {
+      console.error("提交錯誤:", error);
+      alert("⚠️ 伺服器錯誤，請稍後再試！");
+    }
+
+    setIsSubmitting(false);
+  };
+
+  return (
+    <>
+      <H1>歡迎有任何問題於下方填寫表單</H1>
+      <Form1 onSubmit={handleSubmit}>
+        <Div>
+          <Txt htmlFor="name">姓名:</Txt>
+          <Input
+            type="text"
+            id="name"
+            value={inputName}
+            onChange={(e) => setInputName(e.target.value)}
+            required
+          />
+        </Div>
+        <Div>
+          <Txt htmlFor="tel">電話:</Txt>
+          <Input
+            type="text"
+            id="tel"
+            maxLength="10"
+            value={inputTel}
+            onChange={(e) => setInputTel(e.target.value)}
+            required
+          />
+        </Div>
+        <Div>
+          <Txt htmlFor="email">Email:</Txt>
+          <Input
+            type="email"
+            id="email"
+            value={inputEmail}
+            onChange={(e) => setInputEmail(e.target.value)}
+            required
+          />
+        </Div>
+        <Div>
+          <Txt htmlFor="title">標題:</Txt>
+          <Input
+            type="text"
+            id="title"
+            value={inputTitle}
+            onChange={(e) => setInputTitle(e.target.value)}
+            required
+          />
+        </Div>
+        <Div>
+          <Txt htmlFor="message">內容:</Txt>
+          <Txt1
+            id="message"
+            value={inputMessage}
+            onChange={(e) => setInputMessage(e.target.value)}
+            required
+          />
+        </Div>
+        <Bt1 type="submit" disabled={isSubmitting}>
+          {isSubmitting ? "送出中..." : "送出"}
+        </Bt1>
+      </Form1>
+    </>
+  );
 }
 
 export default Contactus;
